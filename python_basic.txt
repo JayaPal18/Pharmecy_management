@@ -46,10 +46,45 @@ helloworld
 >>> print 2+3                  python 2
   File "<stdin>", line 1
     print 2+3
-    ^^^^^^^^^
+    
 SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
 >>> print (2+3)
 5
+python identifiers
+identifiers basically a different name for any program like name of variable,class,object etc.
+** always start with underscore,lowercase letter
+** keywords are the reserved words
+
+identations
+a=190
+if a>10:
+    print ("hello")
+else:
+  print ("back")
+
+Multiline statements
+str="hello ram"+\
+    "my name is jaya"+\
+    "and i have completed my work on time"
+print (str)
+
+Quotations
+print ('hii')
+print ("ram")
+print('''haiiii''')
+
+comments
+#print('''haiiii''')
+
+user input
+x=input("what is your name")
+print ("welcome" , x)
+
+output
+what is your namejayapal
+welcome jayapal
+
+
 
 
 
