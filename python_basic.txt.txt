@@ -1,0 +1,171 @@
+python version 3.10  latest version 3.10.4
+Python basics:-
+
+Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl,
+Python source code is also available under the GNU General Public License (GPL). 
+Python is a high-level, interpreted, interactive and object-oriented scripting language. 
+Python is Interpreted − Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP.
+Python is Object-Oriented − Python supports Object-Oriented style or technique of programming that encapsulates code within objects.
+
+characterstics of python:-
+It supports functional and structured programming methods as well as OOP.
+
+It can be used as a scripting language or can be compiled to byte-code for building large applications.
+
+It provides very high-level dynamic data types and supports dynamic type checking.
+
+** we can convert high level language into machine language in 2 ways:-
+ 1. compiler[all the code at the single time can be executed ]
+ 2. interpreter[single line of code can be compiled by the interpretor] In this way its a interactive way of program also
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+History
+*developed by Guido van Rossum at national reasearch institute for matematician and computer science.
+*python 1.0 released on jan 1994
+*python 2.0 released on oct 16 2000
+*python released 3.0 on 2008
+
+*named after a tv show called ' Monty Python's Flying Circus'
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Features
+1. easy to learn,easy to read,easy to maintain
+2.interactive mode[program can be compiled by interpretor and compiler but in compiler a newcomers in programming language its was difficult to run th e code by firstlt compiled and then run 
+ but in interpretor language it can be compiled line by line like python language so that its features says it is more interactive]
+3. portable we can write program in 1 os and then we can run in different os also 
+4. GUI programming python is a open source project and its includes various gui libraries.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Difference between python 2 and python 3
+python 2 print 2+5 return 5
+python 3 print (2+3) return 5
+>>> print ("helloworld")
+helloworld
+>>> print (5/2)
+2.5
+>>> print 2+3                  python 2
+  File "<stdin>", line 1
+    print 2+3
+    
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+>>> print (2+3)
+5
+
+python identifiers
+identifiers basically a different name for any program like name of variable,class,object etc.
+** always start with underscore,lowercase letter
+** keywords are the reserved words
+
+identations
+a=190
+if a>10:
+    print ("hello")
+else:
+  print ("back")
+
+Multiline statements
+str="hello ram"+\
+    "my name is jaya"+\
+    "and i have completed my work on time"
+print (str)
+
+Quotations
+print ('hii')
+print ("ram")
+print('''haiiii''')
+
+comments
+#print('''haiiii''')
+
+user input
+x=input("what is your name")
+print ("welcome" , x)
+
+output
+what is your namejayapal
+welcome jayapal
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Datatypes
+1. numbers 
+ a. mathematical function:
+
+import math
+print (max(10,20,31))
+print (min(10,20,31))
+print (pow(2,3))
+print (round(2.3478))
+print (math.ceil(-21.10))
+print (math.exp(-21.10))
+print(abs(-23))
+print (math.log(100.13))
+
+31
+10
+8
+2
+-21
+6.860984399693441e-10
+23
+4.606469341719712
+
+ b. Random number function
+
+import random
+print(random.random())
+list=[1,2,3,4,5]
+random.shuffle(list)
+print(list)
+print(random.uniform(10,15))
+print(random.uniform(10 ,20))
+print(random.uniform(10, 20))
+
+
+0.01460815614810762
+[1, 5, 3, 4, 2]
+10.958752416216996
+12.775156336719608
+18.908987109818064
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+Python operators
+Arthimetic operators
+a,b=10,2
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a**2)
+print(a%2)
+
+
+12
+8
+20
+5.0
+100
+0
+
+Bitwise operator
+a,b=60,13
+print(a&b)
+print(a|b)
+print(a^b)
+print(a<<2)
+print(b>>2)
+
+12
+61
+49
+240
+3
+
+Logical operator
+print(a and b)
+print(a or b)
+print(not b)
+
+13
+60
+False
+-----------------------------------------------------------------------------------------------------------------------------------------
