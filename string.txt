@@ -1,0 +1,31 @@
+string in Python
+
+str="jayapal"
+print(str)
+a='x'
+print(type(a))
+
+jayapal
+<class 'str'>
+
+string  operators
+a="ram"
+b="sharma"
+print(a*2)
+print(a+" "+b)
+print(a[0])
+print(a[1:5])
+
+ramram
+ram sharma
+r
+am
+
+String formatting operators:
+%c character
+%s string conversion
+%i decimal integer
+%o octal integer
+%f for float integer
+
+
